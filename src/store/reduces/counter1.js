@@ -7,7 +7,7 @@ export default function reducers(state=initState, action){
         case ADD1:
             return {num: state.num + 1};
         case MINUS1:
-            return {num: state.num -1};
+            return {num: state.num - 1};
         default:
             return state;        
     }
